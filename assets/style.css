@@ -50,6 +50,11 @@ button {
 /*Inner-Container Section*/
 /*-----------------------*/
 
+.inner-container {
+    background-color: darkgoldenrod;
+    height: 100%;
+}
+
 /*-------------------------*/
 /*Header/Quiz Intro Section*/
 /*-------------------------*/
