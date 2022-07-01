@@ -35,6 +35,7 @@ button {
 
 .outer-container {
     padding: 10px;
+    height: 100vh; /* 100% of your screen's height*/
 }
 
 /*---------------*/
