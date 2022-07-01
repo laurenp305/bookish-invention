@@ -1,3 +1,7 @@
+/*-----------------------*/
+/*Global Declarations*/
+/*-----------------------*/
+
 * {
     margin: 0;
     padding: 0;
@@ -25,10 +29,30 @@ button {
     color: black;
 }
 
+/*-----------------------*/
+/*Outer-Container Section*/
+/*-----------------------*/
+
 .outer-container {
     padding: 10px;
 }
 
+/*---------------*/
+/*Top-Bar Section*/
+/*---------------*/
+
 .top-bar p {
   float: right;  
 }
+
+/*-----------------------*/
+/*Inner-Container Section*/
+/*-----------------------*/
+
+/*-------------------------*/
+/*Header/Quiz Intro Section*/
+/*-------------------------*/
+
+/*-----------------*/
+/*Main Quiz Content*/
+/*-----------------*/
