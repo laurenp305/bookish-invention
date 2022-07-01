@@ -27,6 +27,7 @@ button {
     outline: none;
     background-color: white;
     color: black;
+    font-size: 1em;
 }
 
 /*-----------------------*/
@@ -36,6 +37,9 @@ button {
 .outer-container {
     padding: 10px;
     height: 100vh; /* 100% of your screen's height*/
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
 }
 
 /*---------------*/
@@ -51,8 +55,10 @@ button {
 /*-----------------------*/
 
 .inner-container {
-    background-color: darkgoldenrod;
+    background: rgba(0,0,0,0.5);
     height: 100%;
+    width: 50%;
+    margin: 0 auto;
 }
 
 /*-------------------------*/
