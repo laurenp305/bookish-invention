@@ -29,4 +29,6 @@ button {
     padding: 10px;
 }
 
-
+.top-bar p {
+  float: right;  
+}
