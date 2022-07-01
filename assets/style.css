@@ -2,20 +2,31 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid red;
-}
 
-body {
-    background-color: black;
+    /*debugging*/
+    border: 1px solid darkolivegreen;
+
+    /* global default font */
     font-family: monospace; 
 }
 
+body {
+    background-color: white;
+}
+
 p {
-    color: antiquewhite;
-    font-size: 1em;
+    color: darkgoldenrod;
+    font-size: 1.3em;
+}
+
+button {
+    outline: none;
+    background-color: white;
+    color: black;
 }
 
 .outer-container {
     padding: 10px;
 }
+
 
