@@ -11,7 +11,7 @@
     border: 1px solid darkolivegreen;
 
     /* global default font */
-    font-family: monospace; 
+    font-family: "Gill Sans", sans-serif;
 }
 
 body {
@@ -19,8 +19,8 @@ body {
 }
 
 p {
-    color: darkgoldenrod;
-    font-size: 1.3em;
+    color: black;
+    font-size: 1em;
 }
 
 button {
