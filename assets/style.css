@@ -6,6 +6,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: black;
 
     /*debugging*/
     border: 1px solid darkolivegreen;
@@ -16,10 +17,10 @@
 
 body {
     background-color: white;
+    overflow: hidden;
 }
 
 p {
-    color: black;
     font-size: 1em;
 }
 
@@ -28,6 +29,10 @@ button {
     background-color: white;
     color: black;
     font-size: 1em;
+}
+
+h1, h2 {
+    color: darkgoldenrod;
 }
 
 /*-----------------------*/
@@ -55,7 +60,7 @@ button {
 /*-----------------------*/
 
 .inner-container {
-    background: rgba(0,0,0,0.5);
+    background: rgba(0,0,0,0.3);
     height: 100%;
     width: 50%;
     margin: 0 auto;
