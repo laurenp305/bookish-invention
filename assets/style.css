@@ -36,6 +36,10 @@ h1, h2 {
     text-align: center;
 }
 
+li {
+    list-style: none;
+}
+
 /*-----------------------*/
 /*Outer-Container Section*/
 /*-----------------------*/
@@ -78,6 +82,7 @@ h1, h2 {
     margin-bottom: 30vh;
     margin-left: 10%;
     margin-right: 10%;
+    background-color: darkolivegreen;
 }
 
 .quiz-intro p {
@@ -94,6 +99,22 @@ h1, h2 {
 /*-----------------*/
 
 main {
+    display: block;
+}
+
+/*---------------*/
+/*Question Screen*/
+/*---------------*/
+
+.question-screen {
     display: none;
+}
+
+/*----------------------*/
+/*Question Finish Screen*/
+/*----------------------*/
+
+.quiz-finish-screen {
+    display: block;
 }
 
