@@ -33,6 +33,7 @@ button {
 
 h1, h2 {
     color: darkgoldenrod;
+    text-align: center;
 }
 
 /*-----------------------*/
@@ -60,7 +61,7 @@ h1, h2 {
 /*-----------------------*/
 
 .inner-container {
-    background: rgba(0,0,0,0.3);
+    background: rgba(0,0,0,0.2);
     height: 100%;
     width: 50%;
     margin: 0 auto;
@@ -72,6 +73,14 @@ h1, h2 {
 /*-------------------------*/
 /*Header/Quiz Intro Section*/
 /*-------------------------*/
+
+.quiz-intro {
+margin-bottom: 30vh;
+}
+
+.quiz-intro p {
+    text-align: center;
+}
 
 /*-----------------*/
 /*Main Quiz Content*/
